@@ -1,0 +1,7 @@
+entity Book {
+  name String,
+  price Double,
+  published LocalDate
+}
+service Book with serviceClass
+filter Book
